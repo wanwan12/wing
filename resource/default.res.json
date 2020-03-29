@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,xcmascot_ske_json,xcmascot_tex_json,xcmascot_tex_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/xcmascot_tex.png",
+			"type": "image",
+			"name": "xcmascot_tex_png"
+		},
+		{
+			"url": "assets/xcmascot_tex.json",
+			"type": "json",
+			"name": "xcmascot_tex_json"
+		},
+		{
+			"url": "assets/xcmascot_ske.json",
+			"type": "json",
+			"name": "xcmascot_ske_json"
+		}
+	]
+}
